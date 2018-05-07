@@ -1,0 +1,23 @@
+{
+  "name": "typescript-node-minimal",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "prepack": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^8.10.12",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {},
+  "files": [
+    "package.json",
+    "README.md",
+    "dist/**"
+  ]
+}
