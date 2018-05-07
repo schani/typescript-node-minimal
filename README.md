@@ -11,3 +11,9 @@ npm install
 ```sh
 npm start
 ```
+
+## Cleanup
+
+```sh
+npm run clean
+```

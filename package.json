@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node index.ts",
     "prepack": "tsc",
+    "clean": "rm -rf dist node_modules *~",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "Apache-2.0",
